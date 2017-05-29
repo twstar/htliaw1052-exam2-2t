@@ -1,0 +1,24 @@
+105-2 MI3C 補考二梯題
+寫 class Season, 代表季節. 
+Season 中有 int 欄位 s, 0代表春, 1代表夏, 2代表秋, 3代表冬.
+Season 有 constructor, 含一個int參數, 用來設定 d 的值,
+可以假設使用者的輸入都沒錯.
+Season 的文字格式為 S0, S1, S2, S3.
+
+寫 class TestSeason, 用來測試 Season 的 I/O.
+TestSeason中有 static 函數 test1(), test2(), test3(), test4()
+test1() 依序造出三個物件並在DOS視窗印出, 資料為
+        S3, S0, S2
+test2() 由鍵盤讀取3個 Season 物件並在DOS視窗印出
+test3() 由秋季開始, 依序造出連續7個季節的 Season 物件, 
+        然後將它們印到 data1.txt, 中間用空格分開.
+test4() 由 data1.txt 讀取Season物件並在DOS視窗印出, 中間用但逗點及空白隔開.
+        應印出 
+S2, S3, S0, S1, S2
+
+TestSeason 的 main 切換 test1(), test2(), test3(), test4()
+
+注意: ScanableI 已不用, 應改用 ScannableI
+
+
+
